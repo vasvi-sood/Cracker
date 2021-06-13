@@ -1,0 +1,112 @@
+body{
+    background-color: lightcyan;
+    font-family: "monospace";
+
+}
+*{
+    margin:0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+nav
+{
+    background-color:rgb(255, 82, 82);
+    padding:2em;
+    position: fixed;
+    top:0%;
+    left:0%;
+    width: 100%;
+    z-index:100;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    cursor:zoom-in;
+    font-size: larger;
+}
+.reg {
+    position:absolute;
+    top:20%;
+    left:0%;
+    padding:5%;
+    margin:5%;
+    width:80%;
+    border-style: solid;
+    text-align: center;
+    z-index: -100;
+    
+}
+.reg input{
+    display:block;
+    padding: 3%;
+    margin:5%;
+    width:80%;
+  
+}
+
+
+.reg input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width:33%;
+}
+
+.reg p{
+    color: red;
+    font-weight: bold;
+    
+
+}
+
+.users
+{
+    position:absolute;
+    top:20%;
+    left:10%;
+    border-style: solid;
+    border-color: black;
+    padding:2%;
+}
+.users th, .users td{
+    padding:5%;
+}
+
+.decrypt{
+     position:absolute;
+    top:30%;
+    left:55%;
+    border-style: solid;
+    border-color: black;
+    padding:2%;
+    width:40%;
+    align-content: center;
+    height:70%;
+}
+
+.decrypt input[type="text"]{
+    position:absolute;
+    top:30%;
+    left:10%;
+    width:70%;
+    padding: 3%;
+    margin:0%;
+}
+
+.decrypt input[type="submit"]{
+    position:absolute;
+    top:60%;
+    left:40%;
+    width:30%;
+  
+}
+
+.decrypt .result{
+    position:absolute;
+    top:80%;
+    left:10%;
+    width:100%;
+    font-size:3em;
+    color:deeppink;
+}
+
